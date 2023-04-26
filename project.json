@@ -1,18 +1,19 @@
 {
-  "name": "RoboticEnterpriseFramework2",
-  "description": "Robotic Enterprise Framework",
-  "main": "Main.xaml",
+  "name": "WoolworthsTestDemo",
+  "description": "Test Suite Demo",
+  "main": "UiBank_ApplyForLoan.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.1]",
+    "UiPath.Mail.Activities": "[1.18.2]",
     "UiPath.System.Activities": "[22.10.4]",
-    "UiPath.Testing.Activities": "[22.10.1]",
+    "UiPath.Testing.Activities": "[22.10.2]",
     "UiPath.UIAutomation.Activities": "[22.10.4]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.10.4.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.128927816",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -42,46 +43,17 @@
     },
     "fileInfoCollection": [
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "072b15b0-e435-4a0f-a8d7-71dd000ffcb5",
+        "editingStatus": "Publishable",
+        "testCaseId": "c33b9f22-4377-42be-afc1-fc3b2c099bec",
+        "dataVariationFilePath": ".variations\\data_Sheet1.json",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+        "fileName": "PMTestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "9d9db57a-ea44-4cc8-8648-f3abccc60d73",
+        "testCaseId": "296c1fcc-b99b-448c-860f-531596967381",
         "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "cee11e7e-e6e0-40e5-a704-b8d3c26e3bbd",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "298d4047-0147-4574-a090-f20ce14534c3",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\MainTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "382f0808-89bd-4f65-b237-7c7e47f70c48",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\ProcessTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "d71bd7e5-0f9f-48d0-83dc-2e594c615ff4",
-        "testCaseType": "TestCase",
-        "executionTemplateType": "Local",
-        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+        "fileName": "MockTestCase.xaml"
       }
     ],
     "modernBehavior": true
@@ -90,7 +62,13 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "16f8e71b-d46f-4496-b801-268e484c0340",
+      "uniqueId": "74269ce8-5c10-4f98-9e54-53c137b69713",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "UiBank_ApplyForLoan.xaml",
+      "uniqueId": "3ca50bda-4b9c-427f-8078-65d43a8980ee",
       "input": [],
       "output": []
     }

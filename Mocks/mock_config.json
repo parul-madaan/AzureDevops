@@ -1,0 +1,8 @@
+{
+  "mockedWorkflows": [
+    {
+      "mockFilePath": "Mocks\\UiBank_ApplyForLoan_mock.xaml",
+      "sourceWorkflowPath": "UiBank_ApplyForLoan.xaml"
+    }
+  ]
+}
