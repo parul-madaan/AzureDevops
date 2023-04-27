@@ -11,6 +11,10 @@ pool:
 
 steps:
 
+- task: UiPathInstallPlatform@3
+  inputs:
+    cliVersion: 'WIN_22.10.8418.30339'
+    
 - task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
