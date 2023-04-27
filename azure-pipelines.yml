@@ -33,5 +33,5 @@ steps:
 - task: UiPathDeploy@3
   inputs:
     orchestratorConnection: 'AzureDevopsIntegration'
-    packagesPath: '$(Build.ArtifactStagingDirectory)'
+    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
     folderName: 'AzureDevops'
