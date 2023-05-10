@@ -21,7 +21,7 @@ steps:
     projectJsonPath: '$(Build.SourcesDirectory)'
     orchestratorConnection: 'AzureDevopsIntegration'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
-
+    runWorkflowAnalysis: true
 - task: UiPathTest@3
   inputs:
     testTarget: 'TestProject'
